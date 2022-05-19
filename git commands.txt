@@ -1,0 +1,38 @@
+git - version control tool to track changes to your source code.
+
+git init - to initialize empty repo  (.git folder is created) - only one time execution per repo.
+git status- to check the current status of file
+
+working area         			staging area           	commit area
+-----------------------------------------------------------------------------
+newfile - untracked by git       git add                    git commit - under local git repo
+
+
+
+
+
+----------------------------------------------------------
+
+git config --global user.email "xyz@gmail.com"
+git config --global user.name "your name"
+
+git init
+git status
+git add .
+git status
+git commit -m "initial-check-in"
+git status
+
+git log
+
+git remote add origin https://github.com/puneetbhatia77/danske-python-flask-webapp.git
+git push -u origin master
+
+
+make a change in source code and push
+-------------------------------------
+
+#modified home.html file
+git add .
+git commit -m "modified home.html"
+git push -u origin master
